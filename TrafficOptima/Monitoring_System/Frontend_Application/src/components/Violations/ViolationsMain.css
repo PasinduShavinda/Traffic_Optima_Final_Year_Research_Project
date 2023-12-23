@@ -1,0 +1,40 @@
+.violation_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.violation_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column1 {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 30%;
+}
+.column2 {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  width: 67%;
+}
+.main_body {
+  margin: 100px;
+}
+.video-frame-styleing {
+  margin-left: 0px;
+  border: 1px solid #030109;
+  border-width: 10px;
+}
+.custom-select {
+  width: 200px;
+  height: 60px;
+  color: black;
+  background-color: #ccc;
+}
+.select_styling_violations {
+  width: 330px;
+}
+.violation_main_image {
+  margin-left: 80px;
+}

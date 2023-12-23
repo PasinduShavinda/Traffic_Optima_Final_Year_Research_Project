@@ -1,0 +1,112 @@
+
+.TLS_horizontal-container {
+display: flex;
+margin: 10px;
+}
+
+.TLS_vertical-container{
+    flex-direction: row-reverse;
+   
+}
+section.TLS_col-sm{
+  background-color:rgb(0, 0, 0);
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: contain;
+  margin:5px;
+}
+
+.TLS_img{
+  width: 330pxpx;
+  height: 190px;
+  
+  object-fit: contain;
+  margin:5px;
+}
+
+
+.TLS_upload-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .TLS_upload-container input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .TLS_upload-container p {
+    margin: 0;
+  }
+  
+  .TLS_upload-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .TLS_upload-status {
+    margin-top: 10px;
+    color: #dc3545;
+    font-size: 14px;
+  }
+  .TLS_section-container {
+    display: flex; 
+   
+  }
+  .TLS_header {
+    text-align: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  .TLS_body{
+    margin: 20px;
+  }
+ 
+  .TLS_table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px;
+   
+  }
+  
+  .TLS_th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .TLS_td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .TLS_td{
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  
+  .TLS_th {
+    background-color: #d4d2d2;
+    font-weight: bold;
+  }
+  
+  .TLS_tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .TLS_tr:hover {
+    background-color: #ddd;
+  }
+  
+  
+  
+  
+  
+  

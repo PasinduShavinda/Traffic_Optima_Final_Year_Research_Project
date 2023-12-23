@@ -1,0 +1,14 @@
+
+.a3_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.a3_left-component {
+  flex: 0.8;
+}
+
+.a3_right-component {
+  flex: 0.8;
+}

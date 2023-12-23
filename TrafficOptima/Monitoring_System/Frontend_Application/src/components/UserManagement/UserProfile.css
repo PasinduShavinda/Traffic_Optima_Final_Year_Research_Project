@@ -1,0 +1,43 @@
+.user-profile-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-table {
+  border: none; /* Remove table border */
+  width: 100%;
+}
+
+.key-cell {
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.value-cell {
+  text-align: left;
+}
+
+.permissions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.permissions-list li {
+  margin-bottom: 5px;
+}
+.key-cell-p {
+  font-weight: bold;
+  padding-right: 10px;
+  text-align: left;
+  margin-bottom: 100px;
+}

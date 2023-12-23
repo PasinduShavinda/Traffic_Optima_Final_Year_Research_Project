@@ -1,0 +1,33 @@
+.ov_output-container {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ov_video-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.ov_video-frame {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 aspect ratio for responsive video */
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  .ov_output-container {
+    margin-top: 20px;
+  }
+}
+
+.asd_op_img {
+  width: 620px;
+  height: 400px;
+  object-fit: contain;
+}

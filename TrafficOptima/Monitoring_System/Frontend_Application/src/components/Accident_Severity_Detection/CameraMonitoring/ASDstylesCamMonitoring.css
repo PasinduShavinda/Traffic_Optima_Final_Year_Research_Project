@@ -1,0 +1,67 @@
+
+/* Container for the two columns */
+.cm_container {
+    margin-top: 10pt;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin-top: 10px;
+  }
+  
+  /* Left column (form) */
+  .cm_form-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+  }
+  
+  .cm_form-column label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cm_form-column select,
+  .cm_form-column button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .cm_form-column button {
+    background-color: #0078e1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cm_form-column button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Right column (output) */
+  .cm_output-column {
+    flex: 1;
+    padding: 50px;
+    background-color: #000000;
+    border: 2px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: '450px';
+    height: '250px';
+  }
+
+  .ca_h1{
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+  }
+  
+  .smsemailBtn{
+    display: flex;
+  }

@@ -1,0 +1,9 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px; 
+  right-margin: 2rem;
+}
+
+
+
